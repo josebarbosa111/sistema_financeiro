@@ -7,6 +7,10 @@ form{
     font-size: 100px;
     color: aliceblue;
 }
+#h1_cad_user{
+    color: azure;
+    margin-bottom: 50px;
+}
 
 body{
     background-color: #2F4F4F;
@@ -22,5 +26,10 @@ body{
 }
 .button{
     text-align: center;
+    margin-top: 30px;
 }
+.img_cad{
+    margin-top: 80px;
+}
+
 
