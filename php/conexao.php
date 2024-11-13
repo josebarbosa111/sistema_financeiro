@@ -12,6 +12,7 @@ if ($conexao->connect_error) {
     die('Falha na conexão'. $conexao->connect_error);
 }else{
     echo "Conectado com Sucesso";
+
 }
 
 

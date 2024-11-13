@@ -21,8 +21,8 @@ body{
 }
 
 .form-label{
-    color: aliceblue;
-    font-size: 20px;
+    display: flex;
+   margin-left: 1px;
 }
 
 .btn{
@@ -35,5 +35,8 @@ body{
 .img_cad{
     margin-top: 80px;
 }
-
+label{
+    color: aliceblue;
+    font-size: 25px;
+}
 
