@@ -19,7 +19,9 @@ $senha_banco  = $resultado['senha'];
 
 
 if ($email == $email_banco &&  $password == $senha_banco) {
-    header('location: ../tela_inicial.html');
+    session_start();
+    $_SESSION['id'] = $resultado['id_usuario'];
+    header('location: ../tela_inicial.php');
 }else {
     echo "<script> alert('Usuario ou senha Invalida'); history.back(); </script>"; 
 }

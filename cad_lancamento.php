@@ -10,6 +10,7 @@
 </head>
 <body>
     <div class="container text-center">
+    <a class="btn btn-outline-danger" href="php/logout.php" role="button">Sair</a>
         <div class="row">
           <div class="col-sm-12 col-md-5" style="margin-top: 10%;">
              <form action="php/insert_usuario.php" method="post">
